@@ -1,0 +1,21 @@
+<!DOCTYPE html>　　<!-- htmlの使用を宣言-->
+<html lang="ja">　<!-- japaneseで設定-->
+
+	<head> 　<!-- ヘッダー（表示する全体のくくり）を開始宣言-->
+		<meta charset="UTF-8">　　
+		<!-- 検索エンジンおよびブラウザに、読み書きの文字コードをUTF-8であることを表示-->
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<!-- プログラムを作成する上で、javascriptを使用することを宣言(equiv:相当する)-->
+		<script type="text/javascript" src="main.js"> 
+		</script>
+		<!-- 画面上に、main.jsというファイルをjavascriptファイルとして読み込む-->
+	</head>　　<!-- ヘッダー閉じる-->
+
+	<body style="margin:0px;overflow:hidden">  <!-- 画面上に表示する内容を書き込んでいく-->
+
+<br><br>
+	<canvas id="main"></canvas>　<!-- 画面上にキャンバスを作成（id(名前)はmain）-->
+		<p>ユーザー名：<br></p>
+<br><br>
+	</body>  <!-- 表示内容の設定を終了-->
+</html>  <!-- htmlファイルの終了-->
